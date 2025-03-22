@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>com.example.puml-plugin</id>
+    <name>Method Call UML Generator</name>
+    <vendor>YourCompany</vendor>
+
+    <actions>
+        <action id="MethodAnalysisAction" class="com.example.plugin.MethodAnalysisAction"
+                text="Generate Call Sequence" description="Generate PlantUML sequence diagram">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
